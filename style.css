@@ -1,0 +1,163 @@
+/*MainBase*/
+body {
+    background-color: #181818;
+}
+
+p {
+    color:azure;
+}
+
+.bgimg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -100;
+    filter: brightness(30%) blur(2px);
+}
+/*MainBase*/
+
+
+
+
+
+/*animations*/
+.anim-underline-fx {
+    background-image: linear-gradient(to right, rgba(250, 255, 255, 0.795) 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 1px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    transition: background-position .2s;
+}
+  
+.anim-underline-fx:hover {
+    background-position: 0% 100%;
+}
+
+.imgani {
+    transition: 0.2s;
+}
+
+.imgani:hover {
+    transform: scale(1.02);
+}
+/*animation*/
+
+
+
+
+
+
+
+/*TheMainMenuTitles*/
+#links {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    position:absolute;
+    margin-left: 88vw;
+    margin-bottom: 15vh;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+#links > a {
+    text-decoration: none;
+}
+
+#titlepg {
+    font-size: 6rem;
+    position: relative;
+    bottom: 30px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#titlep {
+    font-size: 1.45rem;
+    position: relative;
+    bottom: 120px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*TheMainMenuTitles*/
+
+
+
+
+
+
+/*Main*/
+footer {
+    color: azure;
+    font-size: 1.4rem;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 30px;
+    top: 990vh;
+}
+
+.tags {
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+footer > a {
+    text-decoration: none;
+    color: azure;
+}
+#maincont {
+    height: 1000vh;
+    width: 99.25vw;
+    position:absolute;
+    background-color: #18181836;/*use #181818a6 if anything goes wrong*/
+    left: 0vw;
+    top: 55vh;
+    backdrop-filter: blur(10px);
+}
+#maincont > a > img {
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+    width: 25%;
+    height: fit-content;
+    filter: brightness(70%);
+}
+/*Main*/
+
+
+
+
+
+
+
+
+
+
+/*TextFonts*/
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+  
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}  
+/*TextFonts*/
