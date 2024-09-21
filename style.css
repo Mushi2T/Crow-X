@@ -15,6 +15,17 @@ p {
     z-index: -100;
     filter: brightness(30%) blur(2px);
 }
+
+.warn3s {
+    position: absolute;
+    padding-top: 40px;
+    left: 2vw;
+    font-size: 1.1rem
+}
+
+a {
+    text-decoration: none;
+}
 /*MainBase*/
 
 
@@ -39,7 +50,7 @@ p {
 }
 
 .imgani:hover {
-    transform: scale(1.02);
+    transform: scale(1.04);
 }
 /*animation*/
 
@@ -102,7 +113,8 @@ footer {
     font-style: normal;
     text-align: center;
     padding-bottom: 30px;
-    top: 990vh;
+    padding-top: 20px;
+    top: 186vh;
 }
 
 .tags {
@@ -115,7 +127,7 @@ footer > a {
     color: azure;
 }
 #maincont {
-    height: 1000vh;
+    height: 200vh;
     width: 99.25vw;
     position:absolute;
     background-color: #18181836;/*use #181818a6 if anything goes wrong*/
@@ -127,9 +139,23 @@ footer > a {
     border-radius: 20px;
     overflow: hidden;
     margin: 10px;
-    width: 25%;
+    width: 23.3%;
     height: fit-content;
     filter: brightness(70%);
+}
+
+.aBox {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aBox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*Main*/
 
@@ -155,7 +181,7 @@ footer > a {
     font-style: normal;
 }
 
-  .poppins-bold {
+.poppins-bold {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
